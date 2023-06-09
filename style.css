@@ -1,0 +1,17 @@
+body {
+    border: 2px solid black;
+}
+
+header,
+footer {
+    border: 2px solid black;
+}
+
+main {
+    border: 2px solid black
+}
+
+.banner {
+    padding: 80px;
+    border: 2px solid black;
+}
