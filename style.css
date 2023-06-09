@@ -11,6 +11,7 @@ main {
     border: 2px solid black
 }
 
+/*HEADER*/
 .banner {
     padding: 80px;
     border: 2px solid black;
@@ -46,6 +47,7 @@ header {
     padding: 20px;
 }
 
+/*MAIN*/
 main {
     display: flex;
     justify-content: space-between;
@@ -54,4 +56,44 @@ main {
 .display-banner {
     border: 2px solid black;
     padding: 300px 800px 300px 800px;
+}
+
+/* FOOTER*/
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.material-counter {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.wish {
+    padding: 40px;
+}
+
+.shop,
+.details,
+.history {
+    padding: 40px;
 }
