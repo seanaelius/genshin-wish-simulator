@@ -31,7 +31,7 @@ header {
 .banner2,
 .banner3 {
     border: 2px solid black;
-    padding: 40px;
+    padding: 20px 40px 20px 40px;
 }
 
 .wish-resources {
@@ -44,4 +44,14 @@ header {
 .intertwined-fates {
     border: 2px solid black;
     padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-banner {
+    border: 2px solid black;
+    padding: 300px 800px 300px 800px;
 }
