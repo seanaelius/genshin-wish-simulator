@@ -15,3 +15,33 @@ main {
     padding: 80px;
     border: 2px solid black;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banners {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    border: 2px solid black;
+    padding: 40px;
+}
+
+.wish-resources {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.primogems,
+.intertwined-fates {
+    border: 2px solid black;
+    padding: 20px;
+}
