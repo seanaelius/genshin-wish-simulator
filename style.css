@@ -31,7 +31,6 @@ header {
 .banner1,
 .banner2,
 .banner3 {
-    border: 2px solid black;
     padding: 20px 40px 20px 40px;
 }
 
@@ -43,8 +42,15 @@ header {
 
 .primogems,
 .intertwined-fates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: 2px solid black;
     padding: 20px;
+}
+
+.primogems {
+    gap: 10px;
 }
 
 /*MAIN*/
