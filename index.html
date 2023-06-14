@@ -65,19 +65,11 @@
         const weaponBanner = document.querySelector(".banner3");
         //Declare variable for display-banner
         const displayBanner = document.querySelector(".display-banner");
-        //When buttons are clicked, have an event that changes the text content to the specified banner
-
-        //Declare functions that are performed when buttons are clicked
-
-        //For example:
-        //When standard banner button is pressed, the display-banner should have standard in the middle
-        //When weapon banner button is pressed, the display-banner should have weapon in the middle
-
-
-        //Subproblem: clicking on banner display text in console log
-        standardBanner.addEventListener("click")
-
-
+        //Add event that outputs specified text into display banner when clicked
+        //Make anonymous function that navigates to specified banner using arrow notation
+        eventBanner.addEventListener("click", () => (displayBanner.textContent = "event banner"));
+        standardBanner.addEventListener("click", () => (displayBanner.textContent = "standard banner"));
+        weaponBanner.addEventListener("click", () => (displayBanner.textContent = "weapon banner"));
     </script>
 </body>
 
