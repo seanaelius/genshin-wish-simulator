@@ -1,4 +1,5 @@
-//Steps:
+//Banner Navigation 
+
 //Declare variable for event, standard, weapon banners
 const eventBanner = document.querySelector(".banner1");
 const standardBanner = document.querySelector(".banner2");
