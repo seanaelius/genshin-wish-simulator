@@ -11,3 +11,9 @@ const displayBanner = document.querySelector(".display-banner");
 eventBanner.addEventListener("click", () => (displayBanner.textContent = "event banner"));
 standardBanner.addEventListener("click", () => (displayBanner.textContent = "standard banner"));
 weaponBanner.addEventListener("click", () => (displayBanner.textContent = "weapon banner"));
+
+//Exit Button
+
+//Declare variable for exit button
+const exit = document.querySelector(".exit");
+exit.addEventListener("click", () => (alert("Are you sure you want to exit this banner?")))
